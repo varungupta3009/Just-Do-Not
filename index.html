@@ -59,12 +59,13 @@
   </head>
 
   <body>
-    <p class="is-hidden-mobile shy">Don't touch me!</p>
-
+    <div class="shy">
+      <p class="is-hidden-mobile">Don't touch me!</p>
+    </div>
     <section class="hero is-fullheight has-text-centered">
       <div class="hero-head">
         <div class="container">
-          <h1 class="main title is-size-4 has-text-white">Don't&nbsp;Scan&nbsp;This Quick&nbsp;Response&nbsp;Code!</h1>
+          <h1 class="main title is-size-4 has-text-light">Don't&nbsp;Scan&nbsp;This Quick&nbsp;Response&nbsp;Code!</h1>
         </div>
       </div>
       <div class="hero-body">
@@ -80,45 +81,6 @@
           alt="Google Assistant" width="200px">
       </div>
     </section>
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-    <script>
-      // $(".shy").on("mouseenter", function (event) {
-      //   let pos = [100, 200, -100, -200];
-      //   let selectX = event.clientX + pos[Math.floor(Math.random() * 4)];
-      //   let selectY = event.clientY + pos[Math.floor(Math.random() * 4)];
-      //   if (
-      //     selectX > $(window).width() - $(".shy").width() ||
-      //     selectX < 0 ||
-      //     selectY > $(window).height() - $(".shy").height() ||
-      //     selectY < 0
-      //   ) {
-      //     $(".shy").css({
-      //       bottom: "0px",
-      //       left: "0px"
-      //     });
-      //   } else {
-      //     $(".shy").css({
-      //       top: selectY + "px",
-      //       left: selectX + "px"
-      //     });
-      //   }
-      // });
-      // $(".shy").on("mouseenter", function (event) {
-      //   if ($(".shy").css("bottom") == "0") {
-      //     $(".shy").css({
-      //       top: "0",
-      //       bottom: ""
-      //     });
-      //   } else if ($(".shy").css("left") == "0") {
-      //     $(".shy").css({
-      //       right: "0",
-      //       left: ""
-      //     });
-      //   }
-      // })
-    </script>
-
   </body>
 
 </html>
